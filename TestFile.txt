@@ -5,7 +5,7 @@ start_time = time.time()
 #kol-vo tochek pri tochnosti
 N=99999
 e=0.00001
-#x, y, yl, xl, i
+#x, y, yl, xl, i()
 a=0
 b=1
 print('Passivnyi optimalnyi algorytm')
@@ -24,7 +24,7 @@ for i in range(1, N+2):
 #z=m+m
 #print('m=', m)
 print('z=', z)
-print('Максимальное значение = ',max(z), '\n', 'Минимальное значение = ', min(z))
+print('ГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ = ',max(z), '\n', 'ГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ = ', min(z))
 
 
 
